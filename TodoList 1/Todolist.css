@@ -1,0 +1,34 @@
+body{
+  font-family: Arial;
+}
+.todo, .java{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+.todo{
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+.yDate, .placeOrder{
+  font-size: 15;
+  padding: 6px;
+}
+.add{
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.delete{
+  background-color: darkred;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
